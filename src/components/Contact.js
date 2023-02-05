@@ -10,12 +10,8 @@ const Contact = () => {
   }
   return (
     <Wrapper>
-      <div
-        className='container pt-3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima
-            delectus facere recusandae quaerat eligendi ex amet voluptate dolore
-            quam.mt-2'
-      >
-        <div className='center'>
+      <div className='container pt-3 mt-2'>
+        <div className=''>
           <form onSubmit={handleSubmit}>
             <div className='from-group'>
               <label htmlFor='email'>Email Address</label>
@@ -63,7 +59,6 @@ const Contact = () => {
 }
 
 const Wrapper = styled.section`
-  overflow: hidden;
   text-align: center;
   background-color: var(--dark-color);
   color: var(--light-color);

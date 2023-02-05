@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <Wrapper>
-      <div className=''>
+      <div className='container'>
         <p className='mail'>godricifeji2008@yahoo.com</p>
 
         <p>
