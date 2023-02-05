@@ -17,7 +17,7 @@ const Page = () => {
       <div className='container text-center center svg'>
         <h3>Contact Me</h3>
         <p>
-          Do you want to collaborate, mentor or you have work for me, feel feel
+          Do you want to collaborate, mentor or you have work for me, feel free
           to reachout
         </p>
         <SocialIcons />
@@ -29,6 +29,7 @@ const Page = () => {
 }
 
 const Wrapper = styled.section`
+  overflow: hidden;
   .svg svg {
     color: var(--light-color);
     font-size: 1rem;

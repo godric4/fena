@@ -23,7 +23,6 @@ const Wrapper = styled.footer`
   background-color: var(--dark-color);
   color: white;
   width: 100vw;
-  overflow: hidden;
 
   .mail {
     margin-bottom: -2rem;

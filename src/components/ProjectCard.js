@@ -29,6 +29,7 @@ const ProjectCard = () => {
 }
 
 const Wrapper = styled.section`
+  overflow: hidden;
   img {
     height: 200px;
     width: 100%;

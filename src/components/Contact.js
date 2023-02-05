@@ -63,6 +63,7 @@ const Contact = () => {
 }
 
 const Wrapper = styled.section`
+  overflow: hidden;
   text-align: center;
   background-color: var(--dark-color);
   color: var(--light-color);

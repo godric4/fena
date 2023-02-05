@@ -60,6 +60,7 @@ const Wrapper = styled.section`
   background-color: var(--dark-gray);
   text-align: center;
   padding-top: 2rem;
+  overflow: hidden;
 
   img {
     height: 100px;

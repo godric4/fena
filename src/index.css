@@ -14,6 +14,10 @@
   --transition: all 0.3s linear;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,10 +35,6 @@ code {
     monospace;
 }
 
-.app {
-  max-width: 100vw;
-}
-
 @font-face {
   font-family: lobster;
   src: url('./assets/fonts/LobsterTwo-BoldItalic.ttf');
@@ -43,5 +43,5 @@ code {
 .center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 40rem;
+  /* max-width: 40rem; */
 }

@@ -14,6 +14,7 @@ const Projects = () => {
 }
 
 const Wrapper = styled.section`
+  overflow: hidden;
   padding: 1rem 0;
   background-color: var(--dark-color);
   color: var(--light-color);

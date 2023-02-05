@@ -22,6 +22,7 @@ const About = () => {
 const Wrapper = styled.section`
   background-color: var(--gray-color);
   color: var(--dark-color);
+  overflow: hidden;
 
   h3 {
     text-align: center;
