@@ -4,11 +4,11 @@ import Page from './components/Page'
 
 function App() {
   return (
-    <>
+    <main className='app'>
       <Navbar />
       <Page />
       <Footer />
-    </>
+    </main>
   )
 }
 
