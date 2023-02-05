@@ -23,6 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--dark-color);
   color: var(--light-color);
+  overflow-x: hidden;
 }
 
 code {
