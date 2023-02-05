@@ -21,7 +21,7 @@ const SocialIcons = () => {
         <a href='https://www.instagram.com/fena_400/'>
           <FaInstagram />
         </a>
-        <a href="https://wa.me/2348188534279?text=Hello %20Godric,%20i%20got%20something%2important%20to%20share%20with%20you'">
+        <a href="https://wa.me/2348188534279?text=Hello %20Godric,%20i%20got%20something%20important%20to%20share%20with%20you'">
           <FaWhatsapp />
         </a>
         <a href='https://github.com/godric4'>
