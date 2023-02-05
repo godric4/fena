@@ -14,7 +14,7 @@ const Page = () => {
       <About />
       <Services />
       <Projects />
-      <div className='container text-center center'>
+      <div className='container text-center center svg'>
         <h3>Contact Me</h3>
         <p>
           Do you want to collaborate, mentor or you have work for me, feel feel
@@ -29,7 +29,7 @@ const Page = () => {
 }
 
 const Wrapper = styled.section`
-  svg {
+  .svg svg {
     color: var(--light-color);
     font-size: 1rem;
     margin-top: -2rem;

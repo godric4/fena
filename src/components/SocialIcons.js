@@ -36,7 +36,6 @@ const Wrapper = styled.nav`
   svg {
     margin: 0 0.4rem;
     font-size: 1.7rem;
-    color: inherit;
   }
 
   svg:hover {
