@@ -11,8 +11,7 @@ const Footer = () => {
         <p className='mail'>godricifeji2008@yahoo.com</p>
 
         <p>
-          Fena Webworks &copy; Copyright 2022 - {currentYear}. All rights
-          reserved
+          Fena-WebDev &copy; Copyright 2022 - {currentYear}. All rights reserved
         </p>
       </div>
     </Wrapper>
