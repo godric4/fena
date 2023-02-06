@@ -34,7 +34,7 @@ const Contact = () => {
                 className='form-control'
                 rows='3'
                 id='message'
-                placeholder='What is on your mind?'
+                placeholder="What's on your mind?"
                 name='message'
               ></textarea>
             </div>
@@ -66,11 +66,16 @@ const Wrapper = styled.section`
   place-items: center;
 
   .contact-form {
-    width: 500px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    .contact-form {
+      width: 600px;
+    }
   }
 `
 
