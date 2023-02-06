@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <div className='container pt-3 mt-2'>
-        <div className=''>
+        <div className='contact-form'>
           <form onSubmit={handleSubmit}>
             <div className='from-group'>
               <label htmlFor='email'>Email Address</label>
@@ -46,7 +46,7 @@ const Contact = () => {
             />
             <button
               type='submit'
-              className='btn btn-light w-100 mt-3'
+              className='btn btn-dark text-light w-100 mt-3'
               disabled={state.submitting}
             >
               Submit
@@ -62,6 +62,16 @@ const Wrapper = styled.section`
   text-align: center;
   background-color: var(--dark-color);
   color: var(--light-color);
+  display: flex;
+  place-items: center;
+
+  .contact-form {
+    width: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `
 
 export default Contact
