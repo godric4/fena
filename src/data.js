@@ -8,7 +8,7 @@ export const projects = [
   {
     title: 'Lorine',
    img: 'https://res.cloudinary.com/gentlegiant/image/upload/v1681177403/Screenshot_from_2023-04-11_02-35-28_jrtduw.png',
-    link: 'https://#',
+   link: 'https://lorinecakes.netlify.app',
     desc: 'E-commerce',
   },
   {
